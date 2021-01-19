@@ -63,5 +63,6 @@ def no_vowels(input_string):
             ''W lv Pythn!'
     """
     no_vowel_string = input_string.replace('a','').replace('e','').replace('i','').replace('o','').replace('u','')
+    no_vowel_string = no_vowel_string.replace('A','').replace('E','').replace('I','').replace('O','').replace('U','')
+
     return no_vowel_string
-print(no_vowels("This is an example"))
